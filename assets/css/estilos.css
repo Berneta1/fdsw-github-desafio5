@@ -18,6 +18,17 @@ h2 {
 h2:hover {
   text-shadow: red -6px 0, cyan 6px 0;
 }
+::-webkit-scrollbar {
+  width: 10px
+}
+::-webkit-scrollbar-track {
+  background-color: #00cc99;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb {
+  background: #6600ff;
+  border-radius: 50px;
+}
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
