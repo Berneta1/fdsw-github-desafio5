@@ -30,6 +30,13 @@ h2:hover {
   border-radius: 50px;
 }
 /* Mis trabajos */
+.image-top{
+  filter: grayscale(100%);
+  transition: filter 0.5s;
+}
+.image-top:hover{
+  filter:grayscale(0);
+}
 
 #Mis-trabajos .image-top {
   height: 250px;
